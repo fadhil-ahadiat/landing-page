@@ -3,8 +3,10 @@ import NavbarView from "./components/Navbar";
 export default function HomeView() {
   return (
     <div>
-      <NavbarView />
-      <section className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path/to/hero-image.jpg)' }}>
+      <NavbarView />;
+
+      {/* tambahkan hero-image */}
+      <section className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path/to/hero-image.jpg)' }}> 
         <div className="container mx-auto h-full flex items-center justify-center">
           <h1 className="text-white text-5xl">Welcome to Our Company</h1>
         </div>

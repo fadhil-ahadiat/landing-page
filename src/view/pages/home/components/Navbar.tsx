@@ -3,13 +3,13 @@ import React from 'react';
 
 export default function NavbarView() {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-200 p-4">
       <div className="container mx-auto">
         <ul className="flex space-x-4x-f">
-          <li><Link href="/"><h1 className="text-white">Home</h1></Link></li>
-          <li><Link href="/about"><h3 className="text-white">About Us</h3></Link></li>
-          <li><Link href="/services"><h3 className="text-white">Services</h3></Link></li>
-          <li><Link href="/teams"><h3 className="text-white">Teams</h3></Link></li>
+          <li><Link href="/"><p className="text-white">Home</p></Link></li>
+          <li><Link href="/about-us"><p className="text-white">About Us</p></Link></li>
+          <li><Link href="/services-and-products"><p className="text-white">Services</p></Link></li>
+          <li><Link href="/teams"><p className="text-white">Teams</p></Link></li>
         </ul>
       </div>
     </nav>
