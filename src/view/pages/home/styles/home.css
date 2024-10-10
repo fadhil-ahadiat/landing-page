@@ -1,0 +1,67 @@
+nav {
+  background-color: #FFBB00;
+  padding: 15px;
+}
+
+nav a {
+  color: #fdfff6;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero {
+    /* background-image: "C:\Coding\Purwadhika\codeChallenge\landing-page\src\view\assets\logo putra hatam.jpg" ; */
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+  
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+  
+.company-overview, .products, .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+}
+  
+.company-overview h2, .products h2, .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+  
+.company-overview p, .products p, .testimonials p {
+    font-size: 1.2rem;
+    color: #555;
+}
+  
+.company-tagline {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  scroll-snap-align: center;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  flex-shrink: 0;
+  background-color: grey;
+  border-radius: 16px;
+  text-align: center;
+}

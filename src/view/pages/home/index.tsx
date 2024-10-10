@@ -1,38 +1,38 @@
-import NavbarView from "./components/Navbar";
+import Navbar from "@/app/components/navbar";
+import "@/view/pages/home/styles/home.css";
+import Card from "./card";
 
 export default function HomeView() {
   return (
     <div>
-      <NavbarView />;
-
-      {/* tambahkan hero-image */}
-      <section className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path/to/hero-image.jpg)' }}> 
-        <div className="container mx-auto h-full flex items-center justify-center">
-          <h1 className="text-white text-5xl">Welcome to Our Company</h1>
+      <Navbar />
+      
+      {/* Hero Section */}
+      <section className="hero">
+        <div>
+          <h1>Welcome to Our Company</h1>
+          <p>We are committed to delivering the best services.</p>
         </div>
       </section>
-
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Company Overview</h2>
-          <p className="text-lg">
-            Our company has been a leader in providing exceptional services since its founding. We value quality and customer satisfaction.
-          </p>
-        </div>
+      
+      {/* Company Overview */}
+      <section className="company-overview">
+        <h2>About Our Company</h2>
+        <p>Founded in 2020, we are dedicated to delivering high-quality solutions.</p>
+        <p>Our culture is built on innovation and teamwork.</p>
       </section>
 
-      <section className="py-12">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-          <p>We provide top-notch services including...</p>
-        </div>
+      {/* Products or Services */}
+      <section className="products">
+        <h2>Our Services</h2>
+        <p>We provide top-notch services in web development, mobile applications, and more.</p>
       </section>
 
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
-          <p>"This company is amazing!"</p>
-        </div>
+      {/* Testimonials */}
+      <section className="testimonials">
+      <h2>What Our Clients Say</h2>
+
+      <Card />
       </section>
     </div>
   );

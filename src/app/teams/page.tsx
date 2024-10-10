@@ -1,6 +1,6 @@
-import React from 'react';
-import TeamsView from '@/view/pages/teams';
+import React from 'react'
+import Teams from '@/view/pages/teams'
 
-export default function Teams() {
-  return <TeamsView />;
-};
+export default function page() {
+  return <Teams />;
+}

@@ -1,6 +1,6 @@
-import React from 'react';
-import AboutUsView from '@/view/pages/about-us';
+import AboutUsView from "@/view/pages/about-us";
+import React from 'react'
 
 export default function AboutUs() {
   return <AboutUsView />;
-};
+}

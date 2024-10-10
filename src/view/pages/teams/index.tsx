@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
-import NavbarView from '../home/components/Navbar';
+import Navbar from '@/app/components/navbar';
 
 interface ITeams {
   name: {
@@ -13,7 +13,7 @@ interface ITeams {
   email: string;
 };
 
-const Teams = () => {
+export default function Team() {
   const [users, setUsers] = useState<ITeams[]>([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Teams = () => {
 
   return (
     <div>
-      <NavbarView />;
+      <Navbar />;
 
       <div className="container mx-auto py-12">
         <h1 className="text-3xl font-bold">Meet Our Team</h1>
@@ -37,11 +37,9 @@ const Teams = () => {
               <p className="text-center">{user.email}</p>
 
             </div>
-          ))};
+          ))}
         </div>
       </div>
     </div>
   );
 };
-
-export default Teams;
