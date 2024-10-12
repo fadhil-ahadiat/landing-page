@@ -47,21 +47,3 @@ nav a {
     font-style: italic;
     margin: 20px 0;
 }
-
-.wrapper {
-  display: flex;
-  width: 100%;
-  overflow-x: scroll;
-  gap: 20px;
-  scroll-snap-type: x mandatory;
-}
-
-.card {
-  scroll-snap-align: center;
-  box-sizing: border-box;
-  padding: 1rem 2rem;
-  flex-shrink: 0;
-  background-color: grey;
-  border-radius: 16px;
-  text-align: center;
-}

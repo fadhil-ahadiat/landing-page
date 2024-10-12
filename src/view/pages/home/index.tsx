@@ -1,5 +1,6 @@
 import Navbar from "@/app/components/navbar";
 import "@/view/pages/home/styles/home.css";
+import "@/view/pages/home/styles/card.css"
 import Card from "./card";
 
 export default function HomeView() {
@@ -28,12 +29,15 @@ export default function HomeView() {
         <p>We provide top-notch services in web development, mobile applications, and more.</p>
       </section>
 
-      {/* Testimonials */}
+      {/* Cards Testimonials Section */}
+    <div className="cards-container">
       <section className="testimonials">
       <h2>What Our Clients Say</h2>
 
       <Card />
       </section>
+    </div>
+
     </div>
   );
 };
