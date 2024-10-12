@@ -2,24 +2,23 @@
 import "@/view/pages/home/styles/card.css";
 import React from 'react';
 
-interface Testimonial {
+interface ITestimonial {
   text: string;
   rating: number;
 }
 
 export default function Card() {
-  // Testimoni yang berbeda-beda
-  const testimonials: Testimonial[] = [
-    { text: "This App is amazing", rating: 5 },
-    { text: "Very helpful and easy to use", rating: 4 },
-    { text: "Good, but could be better", rating: 3 },
-    { text: "Excellent features!", rating: 5 },
-    { text: "Needs improvement in speed", rating: 3 },
-    { text: "Satisfied with the performance", rating: 4 },
-    { text: "The UI is very clean", rating: 5 },
-    { text: "Could use more functionality", rating: 2 },
-    { text: "Highly recommend this app", rating: 5 },
-    { text: "Worth every penny!", rating: 4 },
+  const testimonials: ITestimonial[] = [
+    { text: "Batako No.1 di Indonesia", rating: 5 },
+    { text: "Kualitas terbaik", rating: 4 },
+    { text: "Kualitas baik", rating: 3 },
+    { text: "Saya akan repeat order paving block", rating: 5 },
+    { text: "Bahan-bahan terbaik", rating: 4 },
+    { text: "Sudah bagus, mungkin semennya harus diganti", rating: 4 },
+    { text: "Bosnya adalah teman baik saya", rating: 5 },
+    { text: "Tidak mudah hancur, tetapi mudah patah", rating: 2 },
+    { text: "Semua rumah di Indonesia harus pakai batako ini", rating: 5 },
+    { text: "Keren, bisa request", rating: 4 },
   ];
 
   return (

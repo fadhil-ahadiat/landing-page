@@ -1,6 +1,7 @@
 import Navbar from "@/view/components/navbar";
 import "@/view/pages/home/styles/home.css";
-import "@/view/pages/home/styles/card.css"
+import "@/view/pages/home/styles/card.css";
+import "@/view/pages/home/styles/hero.css";
 import Card from "./card";
 
 export default function HomeView() {
@@ -10,9 +11,9 @@ export default function HomeView() {
       
       {/* Hero Section */}
       <section className="hero">
-        <div>
-          <h1>Welcome to Our Company</h1>
-          <p>We are committed to delivering the best services.</p>
+      <div className="hero-content">
+          <h1>Revolutionize Your 3D Designs with AI</h1>
+          <p>Create, Customize, and Enhance 3D Models Effortlessly</p>
         </div>
       </section>
       
