@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/navbar";
+import Navbar from "@/view/components/navbar";
 import "@/view/pages/home/styles/home.css";
 import "@/view/pages/home/styles/card.css"
 import Card from "./card";

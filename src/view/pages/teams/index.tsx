@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
-import Navbar from '@/app/components/navbar';
+import Navbar from '@/view/components/navbar';
 
 interface ITeams {
   name: {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '@/app/components/navbar';
+import Navbar from '@/view/components/navbar';
 
 export default function ProductsView() {
   return (
