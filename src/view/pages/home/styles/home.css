@@ -1,15 +1,3 @@
-nav {
-  background-color: #FFBB00;
-  padding: 15px;
-}
-
-nav a {
-  color: #fdfff6;
-  margin-right: 20px;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
 .hero {
     /* background-image: "C:\Coding\Purwadhika\codeChallenge\landing-page\src\view\assets\logo putra hatam.jpg" ; */
     background-size: cover;

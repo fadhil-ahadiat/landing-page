@@ -1,8 +1,7 @@
-import Navbar from "@/view/components/navbar";
+import Navbar from "@/app/components/navbar";
 import "@/view/pages/home/styles/home.css";
-import "@/view/pages/home/styles/card.css";
 import "@/view/pages/home/styles/hero.css";
-import Card from "./card";
+// import Card from "./card";
 
 export default function HomeView() {
   return (
@@ -35,7 +34,7 @@ export default function HomeView() {
       <section className="testimonials">
       <h2>What Our Clients Say</h2>
 
-      <Card />
+      {/* <Card /> */}
       </section>
     </div>
 

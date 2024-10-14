@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from '@/view/components/navbar';
+import Navbar from '@/app/components/navbar';
 
 export default function ProductsView() {
   return (
     <div>
-      <div><Navbar /></div>
+      <Navbar />
       <div>Products Page</div>
     </div>
   );
