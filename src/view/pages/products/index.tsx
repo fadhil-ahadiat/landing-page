@@ -5,7 +5,7 @@ export default function ProductsView() {
   return (
     <div>
       <Navbar />
-      <div>Products Page</div>
+      <div>Our Services Page</div>
     </div>
   );
 };

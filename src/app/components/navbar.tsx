@@ -1,6 +1,8 @@
 "use client";
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Image from 'next/image';
+import logo from '@/app/public//assets/logo.jpg'
 
 export default function Navbar() {
 
@@ -19,7 +21,12 @@ export default function Navbar() {
               <div className='flex-shrink-0'>
                 <Link legacyBehavior href="/">
                   <a className='text-white'>
-                    Logo Here
+                    <Image
+                      src={logo}
+                      alt='logo'
+                      width={40}
+                      height={40}
+                    />
                   </a>
                 </Link>
               </div>
@@ -36,9 +43,9 @@ export default function Navbar() {
                     About Us
                   </a>
                 </Link>
-                <Link legacyBehavior href="/products">
+                <Link legacyBehavior href="/our-services">
                   <a className='text-white hover:bg-white hover:text-black rounded-lg p-2'>
-                    Products
+                    Our Services
                   </a>
                 </Link>
                 <Link legacyBehavior href="/teams">
@@ -83,6 +90,32 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        {isClick && (
+          <div className='md-hidden'>
+            <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
+            <Link legacyBehavior href="/">
+                  <a className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>
+                    Home
+                  </a>
+                </Link>
+                <Link legacyBehavior href="/about-us">
+                  <a className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>
+                    About Us
+                  </a>
+                </Link>
+                <Link legacyBehavior href="/our-services">
+                  <a className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>
+                    Our Services
+                  </a>
+                </Link>
+                <Link legacyBehavior href="/teams">
+                  <a className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>
+                    Teams
+                  </a>
+                </Link>
+            </div>
+          </div>
+        )}
       </nav>
     </div>
   );
