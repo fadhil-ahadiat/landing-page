@@ -11,20 +11,21 @@ import KCIC from "@/app/public/assets/kcic.png"
 
 export default function Hero() {
   return (
-    <div className="pt-4
+    <div className="pt-4 font-poppins
                     lg:pt-10">
 
         <div className="px-[1.25rem]
                         lg:px-[17.5rem]">
-            <h1 className="text-center text-[32px] leading-[2.5rem] font-medium text-[#172026]
+            <h1 className="text-center text-[32px] leading-[2.5rem] font-bold text-[#172026]
                           lg:text-[64px] lg:leading-[4.5rem]">
-                 Revolutionize Your Home Like A Boss
+                 Building Excellence Designing Dreams
             </h1>
 
             <p className="text-center pt-6 text-[#368485C]
                           lg:text-[18px] lg:leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum ipsum nec dignissim sodales.
-                Sed commodo malesuada vestibulum. Donec cursus nec lectus quis vestibulum.
+                With a dedication to innovation and quality, we offer comprehensive construction
+                and design solutions tailored to each client's unique needs.
+                From groundbreaking architecture and robust constructions to exquisite interior and exterior designs.
             </p>
 
             <div className="flex w-full pt-8 justify-center gap-x-6">
@@ -53,7 +54,7 @@ export default function Hero() {
           <Image
           src={Grad}
           alt="background image gradient"
-          className="min-h-[450px] width-full object-cover
+          className="min-h-[450px] width-full object-cover h-[200px] w-full
                     lg:h-[920px] lg:w-full" />
 
           <div className="absolute flex w-full flex-col items-center">
@@ -61,7 +62,8 @@ export default function Hero() {
             src={ConstructionImage}
             alt="hero section construction image"
             className="h-[300px] w-[300px] drop-shadow-lg -mb-4
-                      sm:-mb20 sm:h-[400px] lg:-mb-28 lg:h-auto
+                      sm:-mb20 sm:h-[100px]
+                      lg:-mb-28 lg:h-auto
                       xl:w-[70%]" />
 
             <div className="flex w-full flex-col items-center
@@ -87,7 +89,7 @@ export default function Hero() {
                     src={Semen}
                     alt="Semen 3 Tiga Roda"
                     className="h-[40px] w-[40px] -mb-7 lg:-mb-0
-                              lg:h-[50px] lg:w-[50px]" />
+                              lg:h-[50px] lg:w-[46.5px]" />
                   <Image
                     src={Summarecon}
                     alt="Summarecon"
@@ -97,7 +99,7 @@ export default function Hero() {
                     src={KCIC}
                     alt="KCIC"
                     className="h-[30px] w-[40px] lg:-mb-0
-                              lg:h-[40px] lg:w-[55px]" />
+                              lg:h-[40px] lg:w-[18.86px]" />
               </div>
 
             </div>

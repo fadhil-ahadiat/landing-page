@@ -11,11 +11,11 @@ const services = [
     id: 1,
     image: service1,
     title: "Construction and Architecture",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Transform your dreams into durable structures. Expert architectural planning and robust construction tailored to your needs.",
     listItems: [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt"
+      "Precision in execution",
+      "Innovative design solutions",
+      "Sustainable building practices"
     ],
     link: "/our-services",
     reverse: false
@@ -24,11 +24,11 @@ const services = [
     id: 2,
     image: service2,
     title: "Interior Design",
-    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Crafting beautiful, functional interiors that reflect your style and enhance your comfort. From modern to classic, we bring your vision to life.",
     listItems: [
-      "Duis aute irure dolor in reprehenderit",
-      "In voluptate velit esse",
-      "Cillum dolore eu fugiat nulla pariatur"
+      "Customized design themes",
+      "Functional space optimization",
+      "Luxurious and aesthetic interiors"
     ],
     link: "/our-services",
     reverse: true
@@ -37,11 +37,11 @@ const services = [
     id: 3,
     image: service3,
     title: "Urban Planning",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "Elevate your property’s curb appeal with our innovative exterior design solutions. Custom designs to create the perfect first impression.",
     listItems: [
-      "Excepteur sint occaecat cupidatat",
-      "Sunt in culpa qui officia",
-      "Deserunt mollit anim id est laborum"
+      "Enhanced curb appeal",
+      "Durable and quality materials",
+      "Environmentally conscious designs"
     ],
     link: "/our-services",
     reverse: false
@@ -50,7 +50,7 @@ const services = [
 
 export default function Features() {
   return (
-    <div className="flex flex-col w-full mx-auto bg-gray-100">
+    <div className="flex flex-col w-full mx-auto bg-gray-100 font-poppins">
       {services.map(service => (
         <div key={service.id} className={`flex flex-col ${service.reverse ? "sm:flex-row" : "sm:flex-row-reverse"} gap-x-6 bg-white shadow-md rounded-lg m-4 p-4`}>
           <Image 

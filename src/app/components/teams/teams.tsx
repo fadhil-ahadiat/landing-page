@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from 'react';
-import Navbar from '@/app/components/navbar/navbar';
 
 interface ITeams {
   name: {
@@ -22,12 +21,17 @@ export default function TeamsView() {
     fetch('https://randomuser.me/api/?results=4&inc=name,picture,email')
       .then((response) => response.json())
       .then((data) => setUsers(data.results.map((user: ITeams, index: number) => {
-        const titles = ["Software Engineer", "Project Manager", "UI/UX Designer", "Data Analyst"];
+        const titles = [
+            "Managing Partner", 
+            "Founding Partner",
+            "Senior Partner",
+            "Junior Partner",
+        ];
         const descriptions = [
-          "Bertanggung jawab atas pengembangan dan pemeliharaan website.",
-          "Mengelola timeline dan sumber daya proyek.",
-          "Merancang antarmuka pengguna yang efektif dan menarik.",
-          "Menganalisis data untuk keputusan bisnis yang lebih baik."
+            "Leads strategic planning and business development.",
+            "Pioneers company vision and overarching project decisions.",
+            "Oversees all project executions and operational management.",
+            "upports project management and innovation initiatives."
         ];
 
         return {
@@ -40,7 +44,7 @@ export default function TeamsView() {
 
   return (
     <div>
-        
+
       <div className="container mx-auto py-12 font-poppins">
         
         <h1 className="text-3xl font-bold text-center">
