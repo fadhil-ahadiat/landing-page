@@ -1,13 +1,13 @@
 import Image from "next/image";
-import BlueButton from "../public/assets/blue-button.svg";
+import BlueButton from "@/app/public/assets/blue-button.svg";
 import Link from "next/link";
-import Grad from "../public/assets/gradientyellow.png";
-import ConstructionImage from "../public/assets/construction-img.png";
-import BUMN from "../public/assets/bumn.png";
-import Semen from "../public/assets/semen.png";
-import Summarecon from "../public/assets/summarecon.png";
-import Ancol from "../public/assets/ancol.png"
-import KCIC from "../public/assets/kcic.png"
+import Grad from "@/app/public/assets/gradientyellow.png";
+import ConstructionImage from "@/app/public/assets/construction-img.png";
+import BUMN from "@/app/public/assets/bumn.png";
+import Semen from "@/app/public/assets/semen.png";
+import Summarecon from "@/app/public/assets/summarecon.png";
+import Ancol from "@/app/public/assets/ancol.png"
+import KCIC from "@/app/public/assets/kcic.png"
 
 export default function Hero() {
   return (

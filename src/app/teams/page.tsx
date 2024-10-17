@@ -1,6 +1,12 @@
-import React from 'react'
-import Teams from '@/view/pages/teams'
+import Navbar from "../components/navbar/navbar";
+import Teams from "@/app/components/teams/teams";
 
-export default function page() {
-  return <Teams />;
+export default function TeamsView() {
+  return (
+    <div>
+      <Navbar />
+
+      <Teams />
+    </div>
+  )
 }

@@ -1,6 +1,15 @@
-import React from 'react';
-import HomeView from '../view/pages/home';
+import Navbar from "@/app/components/navbar/navbar";
+import Hero from "@/app/components/homepage/hero";
+import Features from "@/app/components/homepage/features";
 
-export default function Home() {
-  return <HomeView />;
+export default function HomeView() {
+  return (
+    <>
+      <Navbar />
+
+      <Hero />
+
+      <Features />
+    </>
+  );
 };

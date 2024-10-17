@@ -1,10 +1,10 @@
-import service1 from "../public/assets/service1.png"
-import service2 from "../public/assets/service2.png"
-import service3 from "../public/assets/service3.png"
-import Image from "next/image"
-import CheckMark from "../public/assets/check.svg"
-import BlueButton from "../public/assets/blue-button.svg"
+import service1 from "@/app/public/assets/service1.png"
+import service2 from "@/app/public/assets/service2.png"
+import service3 from "@/app/public/assets/service3.png"
+import CheckMark from "@/app/public/assets/check.svg"
+import BlueButton from "@/app/public/assets/blue-button.svg"
 import Link from "next/link"
+import Image from "next/image"
 
 const services = [
   {

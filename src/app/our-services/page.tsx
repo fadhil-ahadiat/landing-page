@@ -1,6 +1,11 @@
 import React from 'react'
-import ProductsView from '@/view/pages/products'
+import Navbar from '../components/navbar/navbar'
 
 export default function Products() {
-  return <ProductsView />
+  return (
+    <div>
+      <Navbar />
+      Our Services
+    </div>
+  )
 }
