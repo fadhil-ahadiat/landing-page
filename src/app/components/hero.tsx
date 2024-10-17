@@ -11,7 +11,8 @@ import KCIC from "../public/assets/kcic.png"
 
 export default function Hero() {
   return (
-    <div className="pt-4 lg:pt-10">
+    <div className="pt-4
+                    lg:pt-10">
 
         <div className="px-[1.25rem]
                         lg:px-[17.5rem]">
@@ -52,7 +53,7 @@ export default function Hero() {
           <Image
           src={Grad}
           alt="background image gradient"
-          className="min-h-[500px] width-full object-cover
+          className="min-h-[450px] width-full object-cover
                     lg:h-[920px] lg:w-full" />
 
           <div className="absolute flex w-full flex-col items-center">
@@ -66,8 +67,8 @@ export default function Hero() {
             <div className="flex w-full flex-col items-center
                             lg: container lg:flex-row lg:justify-between lg:px-20" >
               <p className="text-black text-lg  text-center
-                            lg:text-[30px]">
-                Trusted by these companies
+                            lg:text-[50px] lg:text-white lg:drop-shadow-md">
+                Our Partners
               </p>
 
               <div className="grid grid-cols-3 items-center justify-center justify-items-center px-[1.25rem] drop-shadow-lg align-middle
