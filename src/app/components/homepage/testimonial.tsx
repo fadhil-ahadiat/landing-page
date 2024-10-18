@@ -52,13 +52,17 @@ export default function Testimony() {
   }, []);
 
   return (
-    <div className="font-poppins max-w-6xl mx-auto space-y-4 py-4 px-6 text-center">
-        <h2 className="text-2xl font-semibold text-gray-700">
+    <div className="font-poppins max-w-6l mx-4 mt-4 mb-4 space-y-4 py-4 px-2 text-center
+                    gap-x-6 bg-gray-100 shadow-md rounded-lg">
+
+        <h2 className="text-2xl font-semibold text-black">
             Hear What Our Clients Say
         </h2>
-        <p className="text-base text-gray-500">
-            Discover These Satisfied Customers
+
+        <p className="text-gray-800 text-lg">
+            You Are Next!
         </p>
+
         <div>
             <Swiper
                 scrollbar={{ draggable: true }}
@@ -76,7 +80,7 @@ export default function Testimony() {
             >
                 {review.map((review, index) => (
                     <SwiperSlide key={index}>
-                        <div className="bg-slate-100 flex flex-col items-center py-4 px-2 space-y-4">
+                        <div className="bg-gray-50 drop-shadow-sm flex flex-col items-center py-4 px-2 space-y-4 cursor-pointer gap-x-6 shadow-md rounded-lg m-4 p-4">
                             <Image
                                 src={review.picture.large}
                                 alt={`${review.name.first} ${review.name.last}`}

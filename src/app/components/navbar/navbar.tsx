@@ -49,7 +49,7 @@ export default function Navbar() {
                 </Link>
                 <Link href="/teams" legacyBehavior>
                   <a className='px-3 py-2 rounded-md text-sm font-medium text-black hover:bg-gray-100'>
-                    Teams
+                    Team Members
                   </a>
                 </Link>
               </div>
@@ -89,7 +89,7 @@ export default function Navbar() {
               </Link>
               <Link href="/teams" legacyBehavior>
                 <a className='block px-3 py-2 rounded-md text-base font-medium text-black hover:bg-gray-100'>
-                  Teams
+                  Team Members
                 </a>
               </Link>
             </div>

@@ -8,8 +8,6 @@ export default function TeamsView() {
       <Navbar />
 
       <Teams />
-
-      <Testimony />
     </div>
   )
 }

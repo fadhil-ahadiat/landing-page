@@ -31,7 +31,7 @@ export default function TeamsView() {
             "Leads strategic planning and business development.",
             "Pioneers company vision and overarching project decisions.",
             "Oversees all project executions and operational management.",
-            "upports project management and innovation initiatives."
+            "Supports project management and innovation initiatives."
         ];
 
         return {
@@ -45,10 +45,13 @@ export default function TeamsView() {
   return (
     <div>
 
-      <div className="container mx-auto py-12 font-poppins">
+      <div className="container mx-auto py-1 font-poppins">
         
-        <h1 className="text-3xl font-bold text-center">
-          Meet Our Team
+        <h1 className="font-bold text-2xl text-center py-5">
+            Meet Our Team Members
+        </h1>
+        <h1 className='font-bold text-5xl text-center py-1'>
+            Putra Hatam Construction
         </h1>
          
         <div className="grid grid-cols-1 mx-5

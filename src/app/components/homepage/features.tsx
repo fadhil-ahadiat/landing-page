@@ -59,7 +59,8 @@ export default function Features() {
             className="w-full sm:w-1/2 rounded-lg"
           />
 
-          <div className="sm:w-1/2 lg:py-[1rem] lg:pr-[2rem]">
+          <div className="sm:w-1/2
+                          lg:py-[1rem] lg:pr-[2rem]">
             <h3 className="font-medium text-red-700 lg:text-[18px]">
               {service.title}
             </h3>
